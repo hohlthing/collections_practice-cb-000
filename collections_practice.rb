@@ -22,11 +22,11 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  array.reverse  
+  array.reverse
 end
 
 def keesha_maker(array)
-
+  array.each { |x| x[2] = "$"}
 end
 
 def find_a(array)
