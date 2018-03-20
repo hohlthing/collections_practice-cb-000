@@ -26,7 +26,9 @@ def reverse_array(array)
 end
 
 def keesha_maker(array)
-  array.each { |x| x[2] = "$"}
+  array.each do |x|
+    x[2] = "$"
+  end
 end
 
 def find_a(array)
