@@ -7,3 +7,33 @@ def sort_array_desc(array)
     b <=> a
   end
 end
+
+def sort_array_char_count(array)
+  array.sort(array[])
+end
+
+def swap_elements(array)
+  temp = array[2]
+  array[2] = array[1]
+  array[1] = temp
+end
+
+def reverse_array(array)
+
+end
+
+def keesha_maker(array)
+
+end
+
+def find_a(array)
+
+end
+
+def sum_array(array)
+
+end
+
+def add_s(array)
+
+end
