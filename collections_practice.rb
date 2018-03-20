@@ -9,7 +9,9 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.sort(array[])
+  array.sort do |a,b|
+    a.length <=> b.length
+  end
 end
 
 def swap_elements(array)
@@ -20,7 +22,7 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-
+  array.reverse  
 end
 
 def keesha_maker(array)
